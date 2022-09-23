@@ -1,0 +1,128 @@
+body {
+    background-color: #000000;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-primary {
+    color: deeppink!important;
+}
+
+.navbar-light .navbar-brand {
+    color: deeppink;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: deeppink;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h6 {
+    color: deeppink;
+    font-size: 1.2rem;
+}
+
+.jumbotron-fluid {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pizza3.jpg");
+    padding: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    background-position:  left -238px;
+}
+
+.jumbotron h1 {
+    position: absolute;
+    top:18;
+    left:0;
+    padding-left: 20px;
+    color: deeppink;
+}
+
+.mission {
+    background-color: deeppink;
+    color: #F7FAFE;
+    margin-top: -30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mission h3 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 3% 15% ;
+    text-align: center;
+    position: center;
+
+}
+
+.navbar-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background: -webkit-linear-gradient(deeppink, lightpink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.order-button {
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+
+.features {
+    padding: 5% 0;
+}
+.small {
+    color: black;
+}
+
+.features p {
+    font-family: 'Muli' 'sans-serif';
+    text-align: center;
+    color:deeppink;
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+
+footer {
+    background-color: #ff81c4;
+    position: absolute;
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    float: right;
+
+}
+
+footer p {
+    float: left;
+}
+
+footer a,
+footer p {
+
+    color:#fff;
+    vertical-align: middle;
+
+}
+
+
+/********************
+MEDIA QUERIES
+********************/
+@media screen and (max-width: 776px) {
+    .features img {
+        max-width: 90%;
+        margin: auto;
+    }
